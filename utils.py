@@ -65,14 +65,3 @@ def plot_loss(history, ylim, loss_metric_name="Loss", plot_validation=True):
     plt.ylabel(loss_metric_name)
     plt.legend()
     plt.grid(True)
-
-
-def plot_metric(history, ylim, eval_metric="sparse_categorical_accuracy", eval_metric_name="Accuracy", plot_validation=True):
-    plt.plot(history.history[eval_metric], label='train')
-    if plot_validation:
-        plt.plot(history.history['val_{}'.format(eval_metric)], label='val')
-    plt.ylim(ylim)
-    plt.xlabel('Epoch')
-    plt.ylabel(eval_metric_name)
-    plt.legend()
-    plt.grid(True)

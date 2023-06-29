@@ -2,3 +2,5 @@
 __pycache__/
 figs/
 outputs/
+tensorflow_datasets/
+wandb/

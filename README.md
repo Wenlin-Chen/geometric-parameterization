@@ -8,6 +8,8 @@
 
 This is the Official TensorFlow 2 Implementation of `Geometric Parameterization`, proposed in the paper *Neural Characteristic Activation Value Analysis for Improved ReLU Network Feature Learning*. Please read [our paper](https://arxiv.org/abs/2305.15912) for detailed descriptions of the proposed geometric parameterization.
 
+All scripts and notebooks have been tested with `python==3.8.12` and `tensorflow==2.8.0`.
+
 If you find our paper and/or code useful for your research, please consider citing our paper:
 
 ```

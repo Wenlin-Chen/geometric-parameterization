@@ -13,10 +13,11 @@ All scripts and notebooks have been tested with `python==3.8.12` and `tensorflow
 If you find our paper and/or code useful for your research, please consider citing our paper:
 
 ```
-@article{chen2023relu,
-  title={ReLU Characteristic Activation Analysis},
-  author={Chen, Wenlin and Ge, Hong},
-  journal={arXiv preprint arXiv:2305.15912},
-  year={2023}
+@article{chen2024neural,
+  title={Neural Characteristic Activation Analysis and Geometric Parameterization for ReLU Networks},
+  author={Wenlin Chen and Hong Ge},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  year={2024}
 }
 ```
